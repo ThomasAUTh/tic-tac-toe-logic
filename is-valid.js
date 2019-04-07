@@ -1,4 +1,4 @@
-const symbols = [ 'x', 'o', null ]
+const symbols = [ 'X', 'O', null ]
 
 const isValidBoard = (board) => board.length === 3 && board.every(isValidRow)
 
